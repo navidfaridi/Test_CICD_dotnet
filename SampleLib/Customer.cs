@@ -6,6 +6,4 @@
         public string FullName { get; set; }
         public DateTime Created { get; set; }
     }
-
-
 }

@@ -13,7 +13,7 @@
             {
                 FullName= name, Created= DateTime.Now
             };
-            customer.Id = _list.Max(u => u.Id) + 1;
+            customer.Id = _list.Count > 0 ? _list.Max(u => u.Id) + 1 : 1;
             _list.Add(customer);
             return customer.Id;
         }

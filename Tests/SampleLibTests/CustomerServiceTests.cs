@@ -20,5 +20,16 @@ namespace SampleLibTests
             Assert.NotNull(x);
             Assert.Equal(x, 1);
         }
+
+        [Fact]
+        public void CustomerServiceAddShouldAddACustomerToList()
+        {
+            var service = new CustomerService();
+            var x = service.Add("test");
+            Assert.NotNull(x);
+            Assert.Equal(x, 1);
+            var list = service.GetAll();
+            Assert.Equal(1, list.Count);
+        }
     }
 }
