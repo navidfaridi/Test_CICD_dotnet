@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLib", "SampleLib\SampleLib.csproj", "{030C5402-FCC9-460A-A038-5A1A2AE94374}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5AD46DB1-1617-4271-9009-27D687F0603A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLibTests", "Tests\SampleLibTests\SampleLibTests.csproj", "{4888796A-C879-4EFC-BBB2-AA88F0D5AA7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{030C5402-FCC9-460A-A038-5A1A2AE94374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{030C5402-FCC9-460A-A038-5A1A2AE94374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{030C5402-FCC9-460A-A038-5A1A2AE94374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4888796A-C879-4EFC-BBB2-AA88F0D5AA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4888796A-C879-4EFC-BBB2-AA88F0D5AA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4888796A-C879-4EFC-BBB2-AA88F0D5AA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4888796A-C879-4EFC-BBB2-AA88F0D5AA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4888796A-C879-4EFC-BBB2-AA88F0D5AA7C} = {5AD46DB1-1617-4271-9009-27D687F0603A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F904FB44-1003-4621-A6C0-625581D87E1E}
