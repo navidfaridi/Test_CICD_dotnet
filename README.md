@@ -1,2 +1,3 @@
 # Test_CICD_dotnet
-test project for dotnet CICD with github
+
+This is a Test project for dotnet CICD with github
